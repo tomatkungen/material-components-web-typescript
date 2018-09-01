@@ -1,4 +1,4 @@
-///<reference path="../../../../MiniAnalyze/definitelytyped/mdc.d.ts" />
+///<reference path="../../../definitelytyped/mdc.d.ts" />
 
 //import {Vue} from "vue";
 
