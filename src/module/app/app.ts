@@ -1,11 +1,13 @@
 ///<reference path="../../../../MiniAnalyze/definitelytyped/mdc.d.ts" />
 
+//import {Vue} from "vue";
+
 export class Main {
 
-    constructor () {
-    }
+    constructor () { }
 
     public begin() {
+        //let v = new Vue();
         mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
     }
 }

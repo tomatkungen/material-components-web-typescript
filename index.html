@@ -1,18 +1,22 @@
 <body>
     <head>
         <title>MiniAnalyze</title>
-        
-        <!-- Library -->
-        <link rel="stylesheet" href="/www/src/library/material-components-web.min.css">
+
+        <!-- Library CSS -->
+        <link rel="stylesheet" href="src/library/material-components-web.min.css">
         <!-- https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css-->
-        
-        <script type="text/javascript" src="/www/src/library/material-components-web.min.js"></script>
+
+        <!-- Library JS -->
+        <script type="text/javascript" src="src/library/vue.js"></script>
+        <script type="text/javascript" src="src/library/material-components-web.min.js"></script>
         <!-- https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js -->
-        
-        <script data-main="www/build/app.js" type="text/javascript" src="/www/src/library/require.js"></script>
-        
+        <script type="text/javascript" src="src/library/require.js"></script>
+
         <!-- Builds -->
-        <script type="text/javascript" src="/www/build/app.js"></script>
+        <script type="text/javascript" src="build/app.js"></script>
+
+        <!-- Configs -->
+        <script type="text/javascript" src="src/config/requirejs-config.js"></script>
     </head>
     <body>
         <span>Material design setup without angular using typescript</span>
