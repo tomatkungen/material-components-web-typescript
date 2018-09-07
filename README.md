@@ -12,7 +12,15 @@ Keeping it simple and optimized so don´t need to think about build scripts and 
 
 **Simple setup using**
 
-* material design web component
-* typescript
-* requirejs
-* vue
+* Material design web component
+* Typescript
+* Requirejs
+* Vue
+* Sass
+
+**Watchers**
+
+*Execute script in separate terminal view.*
+
+* watch-tsc.sh - watching tsc files changes.
+* watch-sass.sh - watching sass files changes.
